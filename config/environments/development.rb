@@ -81,7 +81,6 @@ Rails.application.configure do
   # LetterOpenerWeb.configure do |config|
   #   config.letters_location = Rails.root.join('your', 'new', 'path')
   # end
-
   # Uncomment if you wish to allow Action Cable access from any origin.
   # config.action_cable.disable_request_forgery_protection = true
   #

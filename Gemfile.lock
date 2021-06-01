@@ -234,6 +234,8 @@ GEM
       childprocess (>= 0.5, < 4.0)
       rubyzip (>= 1.2.2)
     semantic_range (3.0.0)
+    serviceworker-rails (0.6.0)
+      railties (>= 3.1)
     spring (2.1.1)
     sprockets (4.0.2)
       concurrent-ruby (~> 1.0)
@@ -290,7 +292,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   letter_opener_web
   listen (~> 3.3)
-  pg
+  pg (~> 1.1)
   public_suffix
   puma (~> 5.0)
   rack-mini-profiler (~> 2.0)
@@ -301,8 +303,8 @@ DEPENDENCIES
   rexml
   sass-rails (>= 6)
   selenium-webdriver
+  serviceworker-rails
   spring
-  sprockets
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
@@ -314,4 +316,4 @@ RUBY VERSION
    ruby 3.0.0p0
 
 BUNDLED WITH
-   2.2.11
+   2.2.15
